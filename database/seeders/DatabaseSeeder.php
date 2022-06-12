@@ -22,5 +22,6 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         $this->call(Prestamo_seeder::class);
+        $this->call(Acta_Entrega_seeder::class);
     }
 }
